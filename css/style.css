@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Acme', sans-serif;
 }
+a{
+  text-decoration: none;
+}
 html{
   font-size: 100%;
 }
@@ -107,6 +110,46 @@ section .main-area .img-area img{
     box-shadow: 0 2px 25px rgba(255, 0, 130, 0.2);
   }
   /*================  Click Me button end here =====================*/
+
+/*================  github profilr link start here =====================*/
+
+.githubLink{
+  position: fixed;
+  left: -188px;
+  bottom: 20px;
+  border-radius: 5px;
+  padding: 5px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:  transparent;
+  /* box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5); */
+  transition: all .8s ease;
+}
+.githubLink:hover{
+  background-color: #fff;
+  left: 0;
+}
+.githubLink:hover span{
+  color: #0000FF;
+  border-bottom: 4px solid #0000FF;
+}
+.githubLink img{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+.githubLink span{
+  margin-right: 10px;
+  font-size: 30px;
+  color: white;
+  transition: left .5s ease;
+}
+
+
 
   /*================  Main Heading Text end here =====================*/
 
